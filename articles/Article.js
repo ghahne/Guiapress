@@ -26,5 +26,6 @@ Article.belongsTo(Category)
 
 // método sync mais o force:true vai criar uma tabela sempre que a app for executada
 // Article.sync({force: true}) foi rodado somente para criar a tabela no banco
+ 
 
 module.exports = Article
