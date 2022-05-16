@@ -6,7 +6,7 @@ router.get('/categories', (req, res) => {
 })
 
 router.get('/admin/categories/new', (req, res) => { // rota para criar nova categoria, onde ficaria um form por exemplo
-    res.send('ROTA PARA CRIAR UMA NOVA CATEGORIA')
+    res.render('admin/categories/new')
 })
 
 module.exports = router // exportar o router para acessar no arquivo principal
