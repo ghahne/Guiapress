@@ -29,3 +29,5 @@ Article.belongsTo(Category)
  
 
 module.exports = Article
+
+console.log('banana')
